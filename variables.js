@@ -9,3 +9,8 @@ console.log(lastName)
 console.log(number)
 console.log(selectedColor)
 console.log(selectedType)
+console.log(typeof selectedColor)
+selectedColor = 'red'
+console.log(selectedColor)
+console.log(typeof selectedColor)
+console.log(typeof selectedType)
