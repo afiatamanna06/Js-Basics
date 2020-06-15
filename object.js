@@ -4,3 +4,7 @@ let person = {
 };
 
 console.log(person);
+person.name = "Hatori Sohma";
+console.log(person.name);
+person['name'] = "Shigure Sohma ;)";
+console.log(person.name);
