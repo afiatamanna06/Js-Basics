@@ -7,4 +7,8 @@ console.log(message.includes('my'));
 console.log(message.includes('not'));
 console.log(message.startsWith('This'));
 console.log(message.endsWith('e'));
+console.log(message.indexOf('my'));
+console.log(message.replace('first', 'second'));
+console.log(message);
+console.log(message.toLocaleUpperCase());
 console.log(typeof anotherString);
