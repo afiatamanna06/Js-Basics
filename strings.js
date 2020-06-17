@@ -1,0 +1,10 @@
+let message = 'This is my first message';
+let anotherString = new String('Hi');
+console.log(typeof message);
+console.log(message.length);
+console.log(message[9]);
+console.log(message.includes('my'));
+console.log(message.includes('not'));
+console.log(message.startsWith('This'));
+console.log(message.endsWith('e'));
+console.log(typeof anotherString);
