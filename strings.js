@@ -1,4 +1,4 @@
-let message = 'This is my first message';
+let message = ' This is my first message  ';
 let anotherString = new String('Hi');
 console.log(typeof message);
 console.log(message.length);
@@ -11,4 +11,6 @@ console.log(message.indexOf('my'));
 console.log(message.replace('first', 'second'));
 console.log(message);
 console.log(message.toLocaleUpperCase());
+console.log(message.trim());
+console.log(message.trimLeft());
 console.log(typeof anotherString);
