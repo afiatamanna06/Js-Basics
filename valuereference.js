@@ -18,3 +18,12 @@ function increase(number) {
 
 increase(number);
 console.log(number);
+
+let object = { value: 10 };
+
+function increment(object) {
+    return object.value++;
+}
+
+increment(object);
+console.log(object.value);
